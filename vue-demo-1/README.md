@@ -1,4 +1,4 @@
-## vue + vue-router + webpack 实践 手动搭建环境 基础环境(一)
+## vue + webpack 实践 手动搭建环境 基础环境(一)
 
 ###### 为什么使用vue？
 vue以数据驱动的 web 界面的渐进式框架[点这里了解什么是pwa](https://lavas.baidu.com/doc/)，vue的目标是通过尽可能简单的API实现响应的数据绑定和组合的视图组件。MVVM的开发模式，可以拆分成：View - ViewModel - Model（视图模型 - 控制器 - 数据模型）三部分。vue特性：轻量、数据双向绑定、指令、插件化。
