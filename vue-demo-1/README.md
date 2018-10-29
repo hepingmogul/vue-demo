@@ -151,8 +151,23 @@ Do you want to install 'webpack-cli' (yes/no):
 1、根目录生成的dist文件
 2、打开dist/index.html，页面上出现“Hello World！”字样说明此次手动搭建环境成功。
 
+- 文件目录结构
+```
+vue-demo-1/
+  ├─ dist
+  ├─ node_modules
+  ├─ src/
+  │   ├─ app.vue
+  │   └─ index.js
+  ├─ .babelrc
+  ├─ webpack.config.js
+  ├─ README.md
+  ├─ package.json
+  └─ package-lock.json
+```
+
 ###### 项目地址
-- github项目地址：[https://github.com/hepingmogul/VueCase2](https://github.com/hepingmogul/VueCase2)
+- github项目地址：[https://github.com/hepingmogul/vue-demo/tree/master/vue-demo-1](https://github.com/hepingmogul/vue-demo/tree/master/vue-demo-1)
 
 ###### 文档地址
 - vue2.0 文档地址：[https://cn.vuejs.org/v2/guide/](https://cn.vuejs.org/v2/guide/)

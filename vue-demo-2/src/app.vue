@@ -1,12 +1,3 @@
 <template>
-	<h3>{{text}}</h3>
+	<router-view></router-view>
 </template>
-<script>
-	export default {
-		data(){
-			return {
-				text: 'Hello World!'
-			}
-		}
-	}
-</script>

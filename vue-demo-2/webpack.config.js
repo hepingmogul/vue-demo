@@ -22,6 +22,8 @@ const config = {
 	mode: 'development',
 	// mode: 'production',
 
+	watch: true,
+
 	plugins: [
 		new VueLoaderPlugin(),
 		new HtmlWebpackPlugin({
