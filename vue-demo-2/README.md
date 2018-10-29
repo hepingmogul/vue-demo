@@ -66,10 +66,10 @@ export default {
 </script>
 ```
 ###### 2. 在src文件夹下创建router.js文件，内容如下：
-> 注释：路由器使用的问题
-> 1、页面组件打包的两种方式
-> a. component: resolve => require(['./foo.vue'], resolve)，页面打包成单独的js文件，按需加载
-> b. component: Foo，这样的（import Foo from './foo.vue';），打包到主js文件里面一起
+> 注释：路由器使用的问题  
+> 1、页面组件打包的两种方式  
+> a. component: resolve => require(['./foo.vue'], resolve)，页面打包成单独的js文件，按需加载  
+> b. component: Foo，这样的（import Foo from './foo.vue';），打包到主js文件里面一起  
 
 ```js
 // router 内容
