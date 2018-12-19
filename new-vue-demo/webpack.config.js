@@ -27,17 +27,7 @@ const config = {
 	plugins: [
 		new VueLoaderPlugin(),
 		new HtmlWebpackPlugin({
-			filename: 'index.html', // 生成的html存放路径，相对于path
-			template: "E:\\HpGithub\\vue-demo\\vue-demo-2\\src\\index.html", // html模板路径
-			// chunks: loadModule, // 加载指定模块中的文件，否则页面缺省加载所有文件
-
-			inject: true, // 允许插件修改哪些内容，true/false、'head'、'body'
-			hash: false, // 为静态资源生成hash值
-			// 压缩HTML文件
-			minify: {
-				removeComments: false, // 移除HTML中的注释
-				collapseWhitespace: false // 删除空白符与换行符
-			}
+			filename: 'index.html'
 		})
 	]
 };

@@ -1,0 +1,104 @@
+// 文本溢出隐藏
+hide-text()
+  text-indent 100%
+  white-space nowrap
+  overflow hidden
+  text-overflow ellipsis
+
+// 定位居中
+absolute-center(width, height = width)
+  width width
+  height height
+  position absolute
+  top 50%
+  left 50%
+  margin-top width * -0.5
+  margin-left height * -0.5
+
+flexbox()
+  display -webkit-box
+  display -ms-flexbox
+  display -webkit-flex
+  display flex
+
+justify-content(jc = flex-start)
+  -webkit-box-pack justify
+  -ms-flex-pack justify
+  -webkit-justify-content jc
+  justify-content jc
+
+align-items(ai = center)
+  -webkit-box-align ai
+  -ms-flex-align ai
+  -webkit-align-items ai
+  align-items ai
+
+// .flex-wrap(@fw)
+// -webkit-box-lines single
+// -moz-box-lines single
+// -webkit-flex-wrap @fw
+// -ms-flex-wrap none
+// -ms-flex-wrap @fw
+// flex-wrap @fw
+
+// .flex-wrap(@fw) when (@fw =wrap)
+// -webkit-box-lines multiple
+// -moz-box-lines multiple
+// -webkit-flex-wrap wrap
+// -ms-flex-wrap wrap
+// flex-wrap wrap
+
+// .flex-wrap(@fw) when not (@fw =wrap) and not (@fw =nowrap)
+// -webkit-flex-wrap @fw
+// -ms-flex-wrap @fw
+// flex-wrap @fw
+
+// .flex-shrink(@fs)
+// -webkit-flex-shrink @fs
+// -ms-flex 0 @fs auto
+// flex-shrink @fs
+
+// .align-content(ai)
+// -ms-flex-line-pack ai
+// -webkit-align-content ai
+// align-content ai
+
+// .align-self(@as)
+// -ms-flex-item-align @as
+// -webkit-align-self @as
+// align-self @as
+
+// .flex(@fg 1, @fs null, @fb null)
+// -webkit-box-flex @fg
+// -webkit-flex @fg @fs @fb
+// -moz-box-flex @fg
+// -moz-flex @fg @fs @fb
+// -ms-flex @fg @fs @fb
+// flex @fg @fs @fb
+
+// .flex-direction-column
+// -webkit-box-orient vertical
+// -webkit-box-direction normal
+// -moz-box-orient vertical
+// -moz-box-direction normal
+// flex-direction column
+// -webkit-flex-direction column
+flex-list(val = 1)
+  -webkit-box-flex val
+  -ms-flex val
+  flex val
+
+flex-start()
+  flexbox()
+  justify-content(flex-start)
+  align-items(center)
+
+flex-center()
+  flexbox()
+  justify-content(center)
+  align-items(center)
+
+flex-between()
+  flexbox()
+  justify-content(space-between)
+  align-items(center)

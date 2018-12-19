@@ -1,0 +1,37 @@
+.weui-cells__title
+  padding $paddingTransverse $padding
+  color $colorSecondary
+  font-size $fontSizeDefault
+
+  & + .weui-cells
+    margin-top 0
+
+.weui-cells
+  margin-top $margin
+  overflow hidden
+  position relative
+  background-color #FFFFFF
+
+.weui-cell
+  flexbox()
+  position relative
+  padding $padding
+  border-bottom $borderDefault
+
+  p
+    margin 0
+
+.weui-cell_link
+  justify-content(space-between)
+  align-items()
+
+  .weui-cell__ft
+    color #999999
+
+.weui-cell__medias
+  flexbox()
+  align-items()
+
+  .weui-cell__media
+    margin-right $marginTransverse * 0.5
+    color #999999

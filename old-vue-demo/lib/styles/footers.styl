@@ -1,0 +1,25 @@
+.footers
+  flex-between()
+  position absolute
+  right 0
+  bottom 0
+  left 0
+  width 100%
+  height $baseFootHeight
+  overflow hidden
+  background-color #fff
+  border-top $borderDefault
+  z-index 20
+
+  .foot-link
+    flex-list()
+    text-align center
+
+    &.active
+      color $colorDefaultActive
+
+  .foot-icon, .foot-text
+    text-align center
+
+  .foot-text
+    font-size 0.75rem
