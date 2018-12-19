@@ -4,7 +4,7 @@ const { VueLoaderPlugin } = require('vue-loader');
 const conf = require('../config/conf');
 
 const {
-  index: entryIndex,
+  entryMainJS,
   commonModule,
   outputPath,
   outputHtmlFileName,
@@ -14,7 +14,7 @@ const {
 
 module.exports = {
   entry: {
-    index: entryIndex,
+    index: entryMainJS,
     commons: commonModule,
   },
 
